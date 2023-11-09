@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --unsafely-ignore-certificate-errors -A main.ts"
+  },
+  "imports": {
+    "commander": "npm:commander@11.0.0",
+    "ansi-colors": "npm:ansi-colors@4.1.3",
+    "jenkins": "npm:jenkins@1.0.2",
+    "axios": "npm:axios@1.4.0",
+    "yaml": "npm:yaml@2.3.2"
+  }
+}
