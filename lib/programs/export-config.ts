@@ -14,7 +14,7 @@ interface IExportConfigOpts {
 export default function (program: Command) {
   program
     .command(buildCommandName(new URL("", import.meta.url).pathname))
-    .option("--folder <folder>", "jenkins folder ex. 001.01_ATM")
+    .option("--folder <folder>", "jenkins folder")
     .option("--cache", "use config from cache")
     .option("--all", "get all configuration without specific folder")
     .action(async (opts: IExportConfigOpts) => {
